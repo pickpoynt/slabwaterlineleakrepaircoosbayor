@@ -3,28 +3,28 @@ import { AlertOctagon, CheckSquare, Crosshair, Sprout, Hammer, Activity } from "
 const infoData = [
     {
         icon: Sprout,
-        title: "Root Dangers",
-        description: "Tiny roots seek out moisture in clay pipe joints. As they grow, they exert massive pressure, eventually cracking or crushing the pipe.",
+        title: "St. Louis Root Intrusion",
+        description: "In older St. Louis neighborhoods like Tower Grove and South City, century-old trees have roots that thrive in the moisture of clay pipe joints, eventually shattering the brittle tile.",
     },
     {
         icon: AlertOctagon,
-        title: "Off-Set Joints",
-        description: "Ground movement often causes clay pipe sections to shift (offset). This creates lips that snag toilet paper and debris, leading to constant clogs.",
+        title: "Shifting STL Soil",
+        description: "St. Louis's clay-rich soil expands and contracts with the seasons, causing brittle clay sewer sections to shift (offset), creating lips that snag debris and lead to total backups.",
     },
     {
         icon: Activity,
-        title: "Trenchless Tech",
-        description: "We prefer non-invasive methods. Pipe relining creates a new pipe inside the old one, while pipe bursting replaces it entirely—both without digging trenches.",
+        title: "Trenchless STL Tech",
+        description: "We protect your historic St. Louis landscaping. Our trenchless pipe bursting and lining methods replace your sewer line without digging up your yard or driveway.",
     },
 ];
 
 const benefitsData = [
-    "Prevents sewage backups",
-    "Stops root growth continuously",
-    "Improves drainage flow speed",
-    "Increases home resale value",
-    "Preserves lawns and driveways",
-    "50+ year life expectancy",
+    "Prevents catastrophic sewage backups",
+    "Eliminates recurring root growth",
+    "Restores optimal drainage flow",
+    "Increases historic home value",
+    "Preserves original St. Louis landscaping",
+    "Lifetime copper & PEX performance",
 ];
 
 const ClayPipeInfo = () => {
@@ -33,14 +33,14 @@ const ClayPipeInfo = () => {
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-                        Underground Knowledge
+                        St. Louis Underground Experts
                     </span>
                     <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-                        Why Clay Pipes Fail
+                        Why St. Louis Clay Pipes Fail
                     </h2>
                     <p className="text-primary-foreground/80 text-lg">
-                        Vitrified clay is durable, but it's brittle and segmented. Understanding the weaknesses
-                        of your Modesto home's plumbing is the first step to a permanent solution.
+                        Vitrified clay was the standard for decades in St. Louis, but it's brittle and prone to structural failure. Understanding the weaknesses
+                        of your STL home's sewer is the first step to a permanent, trenchless solution.
                     </p>
                 </div>
 
@@ -70,23 +70,22 @@ const ClayPipeInfo = () => {
                         <div className="flex items-center gap-3 mb-6">
                             <Crosshair className="w-8 h-8 text-copper" />
                             <h3 className="text-2xl font-heading font-bold text-foreground">
-                                Surgical Precision
+                                High-Def Video Diagnostics
                             </h3>
                         </div>
                         <p className="text-muted-foreground mb-6 leading-relaxed">
-                            We assume nothing. Every job begins with a fiber-optic camera inspection.
-                            We identify if the problem is a simple clog, a few invasive roots, or a
-                            collapsed line.
+                            We assume nothing. Every St. Louis sewer project begins with a high-definition fiber-optic camera inspection.
+                            We identify if the problem is a simple joint leak, massive root intrusion, or a fully collapsed line.
                         </p>
                         <p className="text-muted-foreground leading-relaxed">
-                            This diagnosis allows us to prescribe the exact treatment your sewer needs,
-                            saving you thousands over unnecessary "guesswork" replacements.
+                            This precision diagnosis allows us to recommend the exact trenchless treatment your St. Louis sewer needs,
+                            preventing unnecessary digging and saving you thousands.
                         </p>
                     </div>
 
                     <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
                         <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-                            Benefits of Rehabilitation
+                            Benefits of Sewer Rehabilitation
                         </h3>
                         <ul className="space-y-4">
                             {benefitsData.map((benefit, index) => (
@@ -106,7 +105,7 @@ const ClayPipeInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Hammer className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Stop the damage before it gets worse. Call (877) 792-1410.
+                            Protect your St. Louis property today. Call (877) 792-1410.
                         </span>
                     </div>
                 </div>
@@ -116,5 +115,6 @@ const ClayPipeInfo = () => {
 };
 
 export default ClayPipeInfo;
+
 
 

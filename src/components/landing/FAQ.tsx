@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "What exactly is hydro jetting?",
-    answer: "Hydro jetting is a method of cleaning sewer and drain lines using high-pressure water (up to 4000 PSI). Unlike standard snaking, which only pokes a hole through a clog, jetting scours the entire internal surface of the pipe, removing grease, scale, and roots completely."
+    question: "Why were clay pipes used so much in St. Louis?",
+    answer: "Vitrified clay was the industry standard for sewer lines in St. Louis for over a century due to its resistance to chemical corrosion. However, its main drawback is its brittleness and the fact that it was installed in 2-to-3-foot sections, creating many joints that roots can easily penetrate."
   },
   {
-    question: "Is hydro jetting safe for my older Tacoma home's pipes?",
-    answer: "Yes, but only when performed by professionals. We start every job with a video inspection to ensure your pipes (whether cast iron, clay, or PVC) are structurally sound enough for the pressure. It's often safer than using corrosive chemical cleaners."
+    question: "How do I know if my historic STL home still has clay pipes?",
+    answer: "If your St. Louis home was built before 1970 and hasn't had a major sewer overhaul, it's highly likely you have clay pipes. We can perform a high-definition video sewer lateral inspection to confirm the material and condition of your lines."
   },
   {
-    question: "How often should I have my Tacoma sewer lines jetted?",
-    answer: "For residential properties with historic trees, we recommend every 18-24 months. For Tacoma restaurants and commercial kitchens, we recommend every 3-6 months to prevent grease-related backups and health code violations."
+    question: "Is trenchless replacement better than digging in St. Louis?",
+    answer: "In St. Louis, where many homes have established landscaping, historic brick sidewalks, or shared driveways, trenchless technology is vastly superior. It allows us to replace the entire line with a single continuous HDPE pipe without destroying your property."
   },
   {
-    question: "Can hydro jetting remove tree roots in my Tacoma yard?",
-    answer: "Absolutely. Our specialized rotating jetter nozzles are designed to cut through intrusive tree roots that have penetrated your sewer line. It's an effective, non-invasive alternative to digging up your landscape."
+    question: "Can't I just snake the roots out of my clay pipes?",
+    answer: "Snaking is a temporary fix for St. Louis sewers. It cuts a small hole through the roots, but they will grow back thicker and faster within months. Over time, the pressure from these roots will eventually shatter the brittle clay tiles, leading to a much more expensive collapse."
   },
   {
-    question: "How is hydro jetting better than a standard drain snake?",
-    answer: "A snake is a temporary fix—it creates a small opening but leaves the rest of the buildup behind. Hydro jetting restores the pipe to nearly 100% of its original flow capacity by removing all sludge and debris."
+    question: "What is 'pipe bursting' in the context of STL sewers?",
+    answer: "Pipe bursting is a trenchless method where a specialized head is pulled through your old clay pipe, shattering it outward into the soil while simultaneously pulling a new, seamless polyethylene pipe into place behind it."
   },
   {
-    question: "Will the Tacoma rainy season affect my sewer lines?",
-    answer: "Yes. Heavy rains can put extra pressure on aging sewer systems and wash silt into exterior lines. Regular hydro jetting ensures your drains can handle the increased volume and prevents basement flooding during PNW storms."
+    question: "Does St. Louis city require an inspection for sewer replacement?",
+    answer: "Yes. Most municipalities in the St. Louis metro area, including St. Louis City and County, require permits and inspections for sewer lateral work. Our team handles all permitting and ensures every job meets or exceeds local building codes."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Tacoma Hydro Jetting FAQ
+            St. Louis Clay Pipe FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Expert answers for Tacoma homeowners and businesses regarding high-pressure drain cleaning.
+            Critical expertise for St. Louis homeowners dealing with aging vitrified clay plumbing.
           </p>
         </div>
 
@@ -63,4 +63,5 @@ const FAQ = () => {
 };
 
 export default FAQ;
+
 

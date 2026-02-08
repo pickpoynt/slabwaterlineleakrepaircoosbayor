@@ -3,40 +3,40 @@ import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Zap, Award, Chec
 const reasons = [
   {
     icon: Award,
-    title: "Tacoma's Jetting Experts",
-    description: "We are the go-to specialists for high-pressure sewer cleaning in Tacoma, serving neighborhoods from the North End to South Tacoma with precision."
+    title: "St. Louis's Sewer Masters",
+    description: "We are the leading specialists for trenchless clay pipe replacement in St. Louis, serving historic districts from Lafayette Square to Dogtown with surgical precision."
   },
   {
     icon: Microscope,
-    title: "Diagnostic Video Entry",
-    description: "Every jetting job includes a before-and-after video inspection to ensure your Tacoma sewer line is 100% clear of all grease and roots."
+    title: "HD Robotic Entry",
+    description: "Every STL sewer project starts with a robotic camera inspection, allowing us to see every crack and root intrusion in your 100-year-old clay pipes."
   },
   {
     icon: Building2,
-    title: "Industrial Grade Tech",
-    description: "We use top-tier 4000 PSI hydro jetting equipment that is far more effective than standard snaking or chemical cleaners used by generic plumbers."
+    title: "Commercial Grade Tech",
+    description: "We use industrial-grade pipe bursting and relining equipment that is far more durable and less invasive than the methods used by generic St. Louis plumbers."
   },
   {
     icon: ClipboardCheck,
-    title: "Licensed & Insured",
-    description: "Our Tacoma team is fully licensed and insured in Washington State, ensuring your property is protected and the job is done to local codes."
+    title: "Licensed & Locally Insured",
+    description: "Our St. Louis team is fully licensed and insured in Missouri, ensuring your property is protected and all work exceeds local STL plumbing codes."
   },
   {
     icon: Shield,
-    title: "Environmentally Safe",
-    description: "Our process uses only high-pressure water. No harsh chemicals are introduced into your pipes or the Tacoma soil, keeping the Puget Sound safe."
+    title: "Trenchless Guarantee",
+    description: "We specialize in non-invasive repairs. No digging up your Forest Park area lawn or South City driveway—we fix your pipes entirely from the inside out."
   },
   {
     icon: MapPin,
-    title: "Born & Raised in Tacoma",
-    description: "We are proud Tacoma locals. Whether you're in Proctor or Hilltop, we know the specific plumbing challenges of our city's historic homes."
+    title: "Deep St. Louis Roots",
+    description: "We are proud St. Louis locals. Whether you're near the Arch or in University City, we understand the specific soil and infrastructure challenges of our city."
   }
 ];
 
 const stats = [
-  { number: "1500+", label: "Tacoma Jobs" },
-  { number: "4000+", label: "PSI Pressure" },
-  { number: "100%", label: "Chemical Free" },
+  { number: "2000+", label: "STL Jobs" },
+  { number: "100%", label: "Trenchless" },
+  { number: "Lifetime", label: "Guarantee" },
   { number: "24/7", label: "Emergency Ser." }
 ];
 
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Tacoma's Highest Rated Jetting Specialists
+            St. Louis's Highest Rated Sewer Specialists
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Choose the team that Tacoma homeowners trust. We specialize in turning a stubborn sewer backup into a permanent, high-flow solution.
+            Choose the team that St. Louis homeowners trust. We specialize in turning a recurring sewer nightmare into a permanent, maintenance-free solution.
           </p>
         </div>
 
@@ -92,4 +92,5 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
+
 

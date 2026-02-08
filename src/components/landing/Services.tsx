@@ -3,51 +3,51 @@ import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap, 
 const services = [
   {
     icon: Zap,
-    title: "Main Sewer Line Jetting",
-    description: "Our 4000 PSI hydro jetters blast through the most stubborn Pierce County sewer blockages, restoring full flow to your Tacoma property.",
-    link: "#hydro-jetting-info"
+    title: "Trenchless Pipe Bursting",
+    description: "The modern standard for St. Louis clay pipe replacement. We pull a new HDPE line through the old tile, shattering it without digging up your yard.",
+    link: "#clay-pipe-info"
   },
   {
     icon: Hammer,
-    title: "Root Intrusion Removal",
-    description: "Specialized rotating nozzles cut through intrusive tree roots in older Tacoma neighborhoods without damaging your original pipes.",
-    link: "#hydro-jetting-info"
+    title: "Cured-In-Place Pipelining",
+    description: "Perfect for historic St. Louis homes. We create a 'pipe within a pipe' using epoxy-resin, sealing all cracks and joints permanently.",
+    link: "#clay-pipe-info"
   },
   {
     icon: Droplets,
-    title: "Commercial Grease Scouring",
-    description: "Keep your Tacoma restaurant or commercial kitchen in compliance with high-pressure grease trap and drain line scouring.",
-    link: "#hydro-jetting-info"
+    title: "Root Intrusion Clearance",
+    description: "Removing aggressive tree roots that have penetrated brittle clay joints in older St. Louis neighborhoods like South City.",
+    link: "#clay-pipe-info"
   },
   {
     icon: AlertTriangle,
-    title: "Emergency Clog Response",
-    description: "24/7 rapid response for total sewer backups in Tacoma. We stabilize the situation and clear the line fast to prevent water damage.",
-    link: "#hydro-jetting-info"
+    title: "Emergency Sewer Response",
+    description: "24/7 rapid response for total sewer backups in St. Louis. We stabilize the situation and clear the line fast to prevent flooding.",
+    link: "#clay-pipe-info"
   },
   {
     icon: Search,
-    title: "Video Sewer Inspection",
-    description: "We use high-definition cameras to inspect your Tacoma sewer lines before and after jetting to ensure a 100% clear result.",
-    link: "#hydro-jetting-info"
+    title: "HD Video Sewer Inspection",
+    description: "We use robotic cameras to navigate St. Louis's complex sewer networks, providing you with a high-definition recording of your clay pipe.",
+    link: "#clay-pipe-info"
   },
   {
     icon: Waves,
-    title: "Storm Drain Cleaning",
-    description: "Prevent flooding during Tacoma's heavy rainy season by ensuring your exterior storm drains are clear of silt and debris.",
-    link: "#hydro-jetting-info"
+    title: "Main Line Descaling",
+    description: "Removing decades of scale and mineral buildup from historic St. Louis cast iron and clay pipes, restoring full flow capacity.",
+    link: "#clay-pipe-info"
   },
   {
     icon: Shield,
-    title: "Pipe Descaling",
-    description: "Removing years of scale and iron buildup from historic Tacoma cast iron pipes, extending their life and improving water pressure.",
-    link: "#hydro-jetting-info"
+    title: "Point Repair Solutions",
+    description: "Targeted repairs for localized failures in St. Louis clay pipes, avoiding a full replacement when only a single section is damaged.",
+    link: "#clay-pipe-info"
   },
   {
     icon: ClipboardList,
-    title: "Maintenance Plans",
-    description: "Scheduled hydro jetting for Tacoma businesses and homeowners to prevent emergency backups and maintain healthy plumbing.",
-    link: "#hydro-jetting-info"
+    title: "Pre-Purchase Inspections",
+    description: "Comprehensive sewer scans for St. Louis homebuyers. Know the condition of those underground clay pipes before you sign the contract.",
+    link: "#clay-pipe-info"
   }
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Tacoma's Specialized Hydro Jetting Services
+            St. Louis's Specialized Sewer Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Don't trust generic plumbers with a stubborn blockage. Our Tacoma team specializes specifically in industrial-strength high-pressure water jetting.
+            Don't trust generic plumbers with your historic St. Louis sewer. Our team specializes specifically in the challenges of aging clay pipes and trenchless repair.
           </p>
         </div>
 

@@ -16,7 +16,7 @@ const Header = () => {
 
   const navLinks = [
     { name: "Services", href: "#services" },
-    { name: "Jetting Info", href: "#hydro-jetting-info" },
+    { name: "Sewer Info", href: "#clay-pipe-info" },
     { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
   ];
@@ -35,10 +35,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl block leading-none ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Tacoma
+                St. Louis
               </span>
               <span className={`text-sm font-medium ${isScrolled ? "text-blue-600" : "text-blue-100"}`}>
-                Hydro Jetting Experts
+                Sewer Experts
               </span>
             </div>
           </div>
@@ -67,6 +67,7 @@ const Header = () => {
               </a>
             </Button>
           </nav>
+
 
 
           {/* Mobile Menu Button */}
