@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-emerald-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            West Hempstead homeowners trust us for resilient infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for Nassau County.
+            Coshocton property owners trust us for resilient infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for local Ohio communities.
           </p>
         </div>
 

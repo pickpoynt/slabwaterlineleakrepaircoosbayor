@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "Do you offer emergency plumbing in West Hempstead?",
-    answer: "Yes. Our West Hempstead emergency teams are available 24/7 for urgent pipe bursts, main line failures, and severe leaks. We provide rapid dispatching across Nassau County to protect your home's integrity."
+    question: "Do you offer plumbing services in Coshocton?",
+    answer: "Yes. Our Coshocton teams are available 24/7 for technical plumbing diagnostics, pipe restoration, and local maintenance. We provide rapid support across Coshocton County to preserve your property."
   },
   {
-    question: "How do you find hidden leaks in Hempstead homes?",
-    answer: "We utilize advanced electronic leak detection and HD sewer cameras to pinpoint failures buried within your home's infrastructure, especially in the historic foundations common in Nassau County."
+    question: "How do you handle older plumbing systems in Ohio?",
+    answer: "We specialize in the preservation and technical upgrading of historic plumbing systems common in Coshocton and Roscoe Village, ensuring they meet modern performance standards."
   },
   {
-    question: "Are your plumbers licensed in Nassau County?",
-    answer: "Absolutely. Our technicians are fully master-licensed and insured professionals who adhere strictly to Town of Hempstead plumbing codes and New York state safety standards."
+    question: "Are your plumbers licensed for Ohio projects?",
+    answer: "Absolutely. Our technicians are fully master-licensed and insured professionals who adhere strictly to Ohio state building codes and local municipal plumbing standards."
   },
   {
     question: "Will you provide a technical assessment before starting?",
-    answer: "Absolutely. We believe in transparency. Our technicians will perform a comprehensive diagnostic and provide a clear, upfront, flat-rate pricing assessment before any restoration work begins."
+    answer: "Absolutely. We believe in transparency. Our technicians will perform a comprehensive diagnostic and provide a clear, upfront, flat-rate pricing assessment before any restoration begins."
   }
 ];
 
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-emerald-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6">
-            West Hempstead Plumbing <span className="text-emerald-600">FAQ</span>
+            Coshocton Plumbing <span className="text-emerald-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about residential infrastructure and expert plumbing care in Nassau County.
+            Answers to common questions about local infrastructure and expert plumbing care in Coshocton, Ohio.
           </p>
         </div>
 

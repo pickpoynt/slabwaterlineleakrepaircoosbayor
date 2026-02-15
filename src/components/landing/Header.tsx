@@ -38,7 +38,7 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-emerald-950" : "text-white"}`}>
-                West Hempstead
+                Coshocton
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-emerald-600" : "text-emerald-400"}`}>
                 Plumbing <span className="text-[10px] opacity-70">Pros</span>

@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import WestHempsteadPlumbingInfo from "@/components/landing/WestHempsteadPlumbingInfo";
+import CoshoctonPlumbingInfo from "@/components/landing/CoshoctonPlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>plumber west hempstead ny West Hempstead NY</title>
-        <meta name="description" content="plumber west hempstead ny West Hempstead NY - Precision plumbing repair, leak detection & infrastructure maintenance. 24/7 technical response for West Hempstead and Nassau County. Call (877) 792-1410!" />
-        <meta name="keywords" content="plumber west hempstead ny, West Hempstead plumber, plumbing repair West Hempstead, emergency plumber West Hempstead, Nassau County plumbing, Town of Hempstead plumber" />
-        <link rel="canonical" href="https://west-hempstead-plumbing.com/" />
+        <title>plumber coshocton ohio Coshocton Ohio</title>
+        <meta name="description" content="plumber coshocton ohio Coshocton Ohio - Expert plumbing repair, leak detection & infrastructure maintenance. Reliable residential and commercial services for Coshocton, Ohio. Call (877) 792-1410!" />
+        <meta name="keywords" content="plumber coshocton ohio, Coshocton Ohio plumber, plumbing repair Coshocton, village plumber Ohio, Coshocton County plumbing, historic home plumbing Coshocton" />
+        <link rel="canonical" href="https://coshocton-plumbing-pros.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "West Hempstead Plumbing Pros",
-            "image": "https://images.unsplash.com/photo-1517527667690-0f8a3794b150?auto=format&fit=crop&q=80&w=1200",
+            "name": "Coshocton Plumbing Pros",
+            "image": "https://images.unsplash.com/photo-1590644365607-1c5a519a9917?auto=format&fit=crop&q=80&w=1200",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "West Hempstead",
-              "addressRegion": "NY",
-              "postalCode": "11552",
+              "addressLocality": "Coshocton",
+              "addressRegion": "OH",
+              "postalCode": "43812",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "40.7048",
-              "longitude": "-73.6501"
+              "latitude": "40.2723",
+              "longitude": "-81.8590"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "West Hempstead, NY"
+              "name": "Coshocton, OH"
             },
             "priceRange": "$$",
-            "description": "Professional residential and commercial plumbing services in West Hempstead, NY. We specialize in 24/7 emergency response, technical diagnostics, and high-performance plumbing care for Nassau County homes."
+            "description": "Professional residential and commercial plumbing services in Coshocton, Ohio. We specialize in maintenance, technical diagnostics, and high-performance plumbing care for historic and modern Ohio homes."
           })}
         </script>
 
@@ -55,39 +55,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Residential Plumbing Technology",
+            "serviceType": "Comprehensive Plumbing Solutions",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "West Hempstead Plumbing Pros",
+              "name": "Coshocton Plumbing Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "West Hempstead, NY"
+              "name": "Coshocton, Ohio"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "West Hempstead Plumbing Services",
+              "name": "Coshocton Plumbing Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "High-Performance Leak Detection"
+                    "name": "Historic Home Plumbing Preservation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Nassau Emergency Restoration"
+                    "name": "Industrial & Agricultural Plumbing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Main Line Infrastructure Support"
+                    "name": "Emergency Infrastructure Repair"
                   }
                 }
               ]
@@ -96,11 +96,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="plumber west hempstead ny West Hempstead NY - West Hempstead Plumbing Pros" />
-        <meta property="og:description" content="Expert plumbing solutions in West Hempstead, NY. 24/7 technical restoration and maintenance for Town of Hempstead residents." />
+        <meta property="og:title" content="plumber coshocton ohio Coshocton Ohio - Coshocton Plumbing Pros" />
+        <meta property="og:description" content="Expert plumbing services in Coshocton, Ohio. Reliable infrastructure maintenance and technical restoration for local property owners." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://west-hempstead-plumbing.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1517527667690-0f8a3794b150?auto=format&fit=crop&q=80&w=1200" />
+        <meta property="og:url" content="https://coshocton-plumbing-pros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1590644365607-1c5a519a9917?auto=format&fit=crop&q=80&w=1200" />
       </Helmet>
 
       <Header />
@@ -108,18 +108,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              plumber west hempstead ny West Hempstead NY
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">West Hempstead Plumbing Pros</span>
+              plumber coshocton ohio Coshocton Ohio
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Coshocton Plumbing Pros</span>
             </>
           }
-          subtitle="West Hempstead's trusted authority for resilient home infrastructure. We provide precision diagnostics, technical repair, and 24/7 support for Nassau County. Engineering Excellence."
-          image="https://images.unsplash.com/photo-1517646281602-7b9265436d40?auto=format&fit=crop&q=80&w=2000"
-          overlayImage="https://images.unsplash.com/photo-1504151932400-72d433433e33?auto=format&fit=crop&q=80&w=2000"
-          badge="WEST HEMPSTEAD MASTER PLUMBERS"
+          subtitle="Coshocton's trusted authority for resilient local infrastructure. We provide precision diagnostics, expert preservation, and technical support for Ohio property owners. Village Pride."
+          image="https://images.unsplash.com/photo-1590644365607-1c5a519a9917?auto=format&fit=crop&q=80&w=2000"
+          overlayImage="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80&w=2000"
+          badge="COSHOCTON MASTER PLUMBERS"
         />
         <Services />
         <WhyUs />
-        <WestHempsteadPlumbingInfo />
+        <CoshoctonPlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
